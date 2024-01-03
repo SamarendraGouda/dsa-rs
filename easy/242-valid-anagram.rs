@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 pub fn is_anagram(s: String, t: String) -> bool {
     let mut map = HashMap::new();
     for c in s.chars() {
